@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a2136;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.logo__img {
+    width: 200px;
+    margin: 5px 70px;
+    cursor: pointer;
+}
+header ul {
+    margin: 0px 30px;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #0a2136;
+    border-radius: 5px;
+}
+
+header ul li:hover {
+    background-color: #333f4f;
+    border: 1px solid #c2c9cf;
+    transition: 0.3s;
+}
+
+.slider {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/pexels-photo-3182777.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slider__content {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.slider__content h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.slider__content h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.slider__content p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 20px 30%;
+}
+
+.slider__heading h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.slider__button {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: 1px solid #c2c9cf;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.slider__button:hover {
+    padding: 10px 20px;
+    border: 3px solid #c2c9cf;
+    border-radius: 40px;
+    color: white;
+    background-color: #1f2937;
+    transition: .5s;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+i {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #c2c9cf;
+    border-radius: 40px;
+}
+
+i:hover {
+    color: #0a2136;
+    background-color: #c2c9cf;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #c2c9cf;
+    border-radius: 40px;
+    transition: .5s;
+}
